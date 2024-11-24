@@ -44,7 +44,7 @@ class GazeGestureDetector(Plugin):
             handler.setFormatter(formatter)
             self.logger.addHandler(handler)
 
-        self.origin_distance_tr = 0.15
+        self.origin_distance_tr = 0.10
         self.gesture_duration = 0.7
         self.gap_max = 0.04
         self.gap_counter = 0
